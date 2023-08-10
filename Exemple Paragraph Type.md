@@ -1,8 +1,3 @@
-# Paragraph Naming Scheme
-
-- All pagragraph Machine name MUST be prefixed by `pg_`
-- If the Paragraph is Structural, the Paragraph name SHOUL be prefixed by  `pg_structure`, the Readable name CAN be prefixed by `Structure - `
-
 # Example Paragraph
 
 ## Paragraph Type Name [`paragraph_type_machine_name`]
@@ -14,25 +9,25 @@
 | Machine Name | paragraph_type_machine_name |
 | Icon         | [SVG link] |
 | Description  | A short explanation of the usage of the Paragraph Type. |
-| Languages Settings | Default language :  <br />Show language selector on create and edit pages : Yes / No<br />Enable translation : Yes / No |
+| Languages Settings | *Default language :*  <br />*Show language selector on create and edit pages :* Yes / No<br />*Enable translation :* Yes / No |
 
 ### Fields
 
-| Field Name | Field Machine Name | Field Type             | N    | R    | T    | Values                        |
-| ---------- | ------------------ | ---------------------- | ---- | ---- | ---- | ----------------------------- |
-| Title      | `field_title`      | Text (plain)           | 1    | Yes  | Yes  | Max Length : 255              |
-| Text       | `field_text`       | Text (Long, Formatted) | 1    | No   | No   | Allowed Formats : Simple HTML |
+| Field Name | Field Machine Name | Field Type             | N    | R    | T    | Values                          |
+| ---------- | ------------------ | ---------------------- | ---- | ---- | ---- | ------------------------------- |
+| Title      | `field_title`      | Text (plain)           | 1    | Yes  | Yes  | *Max Length :* 255              |
+| Text       | `field_text`       | Text (Long, Formatted) | 1    | No   | No   | *Allowed Formats :* Simple HTML |
 
 ### Forms
 
 #### Form Mode 1
 
-| Field Name  | Widget                    | Options   |
-| :---------- | ------------------------- | --------- |
-| Title       | Textfield                 | Size : 60 |
-| Text        | Text Area (multiple rows) | Rows : 5  |
-| Published   | Disabled                  |           |
-| Authored On | Disabled                  |           |
+| Field Name  | Widget                    | Options     |
+| :---------- | ------------------------- | ----------- |
+| Title       | Textfield                 | *Size :* 60 |
+| Text        | Text Area (multiple rows) | *Rows :* 5  |
+| Published   | Disabled                  |             |
+| Authored On | Disabled                  |             |
 
 ### Displays
 
